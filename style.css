@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar{
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .image-profile{
+        height: vph;
+        width: 80%;
+        border-radius: 50%;
+        border: 5px solid #00d4ff;
+        align-items: baseline;
+        margin-top: 10%;
+        margin-left: 10%;
+  }
+  h1{
+    color: #04AA6D;
+    font-size: 25px;
+    text-align: center;
+  }
+  #Work {
+    margin-left: 200px;
+    margin-top: 25px;
+    padding: 1px 16px;
+    height: 125%;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+   section.Work {margin-left: 0;}
+  }
+  section.content1 {
+    margin-left: 200px;
+    margin-top: 25px;
+    padding: 1px 16px;
+    height: 125%;
+  }
+  .accordion{
+    background-color:none;
+  }
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+   section.content1 {margin-left: 0;}
+  }
+  section.content2 {
+    margin-left: 200px;
+    margin-top: 25px;
+    padding: 1px 16px;
+    height: 125%;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+   section.content2 {margin-left: 0;}
+  }
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  /* Style all font awesome icons */
+  .social-media{
+    display: inline-flex;
+    position: relative;
+    margin-left: 1.5%;
+    vertical-align: middle;
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #0078FF;
+    color: white;
+  }
+  /* Instagram*/
+  .fa-instagram {
+    background: #DD2A7B;
+    color: white;
+  }
+  /* LinkedIn */
+  .fa-linkedin {
+    background: #00A0DC;
+    color: white;
+  }
+  .whatsapp-icon{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    background-color: #25d366;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    animation: effect 5s infinite ease-in;
+}
+
+@keyframes effect {
+    20%, 100% {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    0%, 10%{
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
+    }
+    5%{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+}
+  
+  .whatsapp-icon {
+    margin-top:13px;
+    size: 60px;
+  }
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00d4ff;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 21%;
+ }
+ .skills{
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+ }
+.progress-bar{
+margin: 0%;
+}
+.progress{
+    margin: 2%;
+}
+h2{
+  font-family: 'Bebas Neue', sans-serif;
+}
+h3{
+  font-family: 'Urbanist', sans-serif;
+}
